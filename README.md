@@ -7,7 +7,7 @@ I am building this project to solve two primary problems:
 
 ##The Philosophy: Accuracy Over Latency##
 
-In this system, I treat time as a resource to be traded for correctness. By utilizing a "Bicameral" architecture—splitting the system into a Generative GPU Chamber and a Logical CPU Chamber—I can force smaller models to behave like much larger ones through iterative refinement.
+In this system, I treat time as a resource to be traded for correctness. By utilizing a "Bicameral" architecture - splitting the system into a Generative GPU Chamber and a Logical CPU Chamber - I can force smaller models to behave like much larger ones through iterative refinement.
 
 ##The Ralph-Prolog-TDD Triad##
 
