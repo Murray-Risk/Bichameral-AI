@@ -22,17 +22,33 @@ ________________________________________
 
 ##Technical Stack##
 
-•	_Inference Engine_: llama.cpp (Optimized for GGUF quantization to fit 32B models into 16GB VRAM).
+The system is engineered to maximize performance on constrained hardware by utilizing a Bicameral Architecture, separating generative tasks (GPU) from logical governance (CPU).
 
-•	_Governance_: SWI-Prolog (Deterministic routing and policy enforcement).
+###The Model Zoo (Orchestrated via Prolog)###
 
-•	_Orchestration_: Python 3.11.
+The system utilizes a specialized ensemble of models, each selected by the Prolog Router based on the task domain and required "stakes":
 
-•	_Primary Worker_: Qwen-Coder-32B (For complex reasoning and implementation).
+• _Primary Worker (Code/Reasoning)_: Qwen2.5-Coder-32B — The heavy-lifter for architectural design and complex implementation.
 
-•	_The Critic_: IBM Granite-4.0 (Specialized for validation and verification).
+• _The Critic (Validation)_: IBM Granite-3.0/4.0 — Specialized for line-by-line verification and ensuring adherence to the "Constitution."
 
-•	_Memory_: Markdown-based "Memory Ledger" for durable, human-readable audit trails.
+• _General Reasoning_: GPT-OSS-8B/20B — Used for high-level planning and internal system reasoning.
+
+• _Performance/Ops_: Nemotron-3-8B — Optimized for system operations and performance-critical tasks.
+
+• _Creative/Narrative_: MythoMax-L2-13B — Deployed for creative content generation and brand-safe narrative tasks.
+
+• _Efficiency Specialist_: Granite-3.0-8B-Instruct — Used for low-stakes, high-speed processing to preserve resources.
+
+###Infrastructure & Governance###
+
+• _Inference Engine_: llama.cpp — Leverages GGUF quantization to fit the Model Zoo within a 16GB VRAM envelope.
+
+• _Governance Spine_: SWI-Prolog — A deterministic, symbolic "Constitution" for domain routing and policy enforcement.
+
+• _Orchestration Layer: Python 3.11 — The bridge between symbolic logic and neural inference.
+
+• _Memory System_: Markdown Memory Ledger — A durable, human-readable audit trail recording every Prolog decision, Ralph loop iteration, and validator verdict.
 ________________________________________
  
 ##Hardware Constraints## 
