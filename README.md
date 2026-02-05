@@ -1,15 +1,15 @@
-#Bicameral-AI: Sovereign Infrastructure & The Ralph Protocol
+#Bicameral-AI: Sovereign Infrastructure & The Ralph Protocol#
 
 _Bicameral-AI_ is intended to be a high-accuracy, locally-hosted AI orchestration engine designed to deliver performance approaching frontier-model levels on a budget-conscious, consumer-grade workstation.
 I am building this project to solve two primary problems:
 1.	_Data Sovereignty_: Ensuring 100% privacy by running entirely air-gapped with no external API dependencies.
 2.	_Economic Feasibility_: Proving that "diabolical" frontier-system costs can be bypassed by trading latency for accuracy on local hardware.
 
-##The Philosophy: Accuracy Over Latency
+##The Philosophy: Accuracy Over Latency##
 
 In this system, I treat time as a resource to be traded for correctness. By utilizing a "Bicameral" architecture—splitting the system into a Generative GPU Chamber and a Logical CPU Chamber—I can force smaller models to behave like much larger ones through iterative refinement.
 
-##The Ralph-Prolog-TDD Triad
+##The Ralph-Prolog-TDD Triad##
 
 The core of my methodology is a three-way interaction:
 •	_The Constitution (Prolog)_: A symbolic logic engine that acts as the system's "Law." It determines model selection and validation requirements.
@@ -17,7 +17,7 @@ The core of my methodology is a three-way interaction:
 •	_The Enforcer (Ralph)_: Named as a nod to the "Ralph Wiggum" primitive (a BASH loop that runs until a test passes). Ralph is the mechanism of naive persistence – it forces the system to refine its output until the TDD invariants are met.
 ________________________________________
 
-##Technical Stack
+##Technical Stack##
 •	_Inference Engine_: llama.cpp (Optimized for GGUF quantization to fit 32B models into 16GB VRAM).
 •	_Governance_: SWI-Prolog (Deterministic routing and policy enforcement).
 •	_Orchestration_: Python 3.11.
@@ -26,7 +26,7 @@ ________________________________________
 •	_Memory_: Markdown-based "Memory Ledger" for durable, human-readable audit trails.
 ________________________________________
  
-##Hardware Constraints 
+##Hardware Constraints## 
 
 I’m designing this software specifically to maximize the following hardware configuration. This project is intended to serve as a benchmark for what is possible on a high-memory, low-VRAM workstation:
 •	_OS_: Fedora 42 Workstation
@@ -39,7 +39,7 @@ I’m designing this software specifically to maximize the following hardware co
 •	_Chassis/Power_: Antec P20CE / MSI MAG A750GL (750W)
 ________________________________________
 
-##Project Status
+##Project Status##
 
 _Current Phase_: Documentation & Architectural Specification.
 This repository currently contains the formal specifications, Prolog routing schemas, and architectural designs for the Bicameral-AI system. I am currently moving toward the initial implementation of the Python-Prolog bridge.
@@ -54,7 +54,7 @@ _Planned Structure_
 ```
 ________________________________________
  
-##The Ralph Loop (Conceptual)
+##The Ralph Loop (Conceptual)##
 
 The system doesn't just "guess" an answer. It iterates:
 1.	Prolog decides the stakes and selects the model.
