@@ -18,6 +18,7 @@ The core of my methodology is a three-way interaction:
 ________________________________________
 
 ##Technical Stack##
+
 •	_Inference Engine_: llama.cpp (Optimized for GGUF quantization to fit 32B models into 16GB VRAM).
 •	_Governance_: SWI-Prolog (Deterministic routing and policy enforcement).
 •	_Orchestration_: Python 3.11.
