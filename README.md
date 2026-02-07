@@ -1,4 +1,4 @@
-#Bicameral-AI: Sovereign Infrastructure & The Ralph Protocol#
+*Bicameral-AI: Sovereign AI Infrastructure for High‑Assurance Local Reasoning*
 
 I’m building _Bicameral‑AI_, a sovereign, locally‑hosted AI orchestration system designed to deliver high‑assurance reasoning on constrained hardware. It uses a bicameral architecture: a GPU generative chamber for creative and synthetic work, paired with a CPU logical chamber responsible for routing, validation, and constitutional governance.
 
