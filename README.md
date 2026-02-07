@@ -58,8 +58,8 @@ Together, these components transform generative models into a **governed softwar
 Each model is selected based on domain, stakes, and required guarantees:
 
 - **Qwen2.5‑Coder‑32B** — Primary Worker for architecture and complex implementation  
-- **IBM Granite‑3.0/4.0** — Line‑by‑line Validator and constitutional enforcer  
-- **GPT‑OSS‑8B/20B** — General reasoning and planning  
+- **IBM Granite‑4.0** — Line‑by‑line Validator and constitutional enforcer  
+- **GPT‑OSS‑20B** — General reasoning and planning  
 - **Nemotron‑3‑8B** — Performance‑oriented implementation and ops tasks  
 - **MythoMax‑L2‑13B** — Creative and narrative generation  
 - **Granite‑3.0‑8B‑Instruct** — Efficiency specialist for low‑stakes tasks  
