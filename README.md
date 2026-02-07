@@ -1,111 +1,135 @@
-*Bicameral-AI: Sovereign AI Infrastructure for High‑Assurance Local Reasoning*
+# **Bicameral‑AI: Sovereign AI Infrastructure for High‑Assurance Local Reasoning**
 
-I’m building _Bicameral‑AI_, a sovereign, locally‑hosted AI orchestration system designed to deliver high‑assurance reasoning on constrained hardware. It uses a bicameral architecture: a GPU generative chamber for creative and synthetic work, paired with a CPU logical chamber responsible for routing, validation, and constitutional governance.
+Bicameral‑AI is a sovereign, locally‑hosted AI orchestration system engineered to deliver **high‑assurance reasoning on constrained hardware**. It implements a *bicameral cognitive architecture*:  
+- a **GPU Generative Chamber** for creative and synthetic work  
+- a **CPU Logical Chamber** for routing, validation, and constitutional governance  
 
-At the core is a Prolog‑driven “constitution” that determines domain, stakes, model selection, and required validation. Every task begins with a test harness, and the system iterates until those tests pass. This trades latency for correctness, enabling smaller open‑weight models to achieve reliability that meaningfully exceeds what we see in frontier‑scale systems - without cloud dependence or data exposure. Historically, we ran programs overnight, or for days, when correctness mattered. Bicameral‑AI returns to that mindset: time is a resource, not a constraint. Where frontier models generate code, this system is designed to build full, complex software packages under governance, validation, and traceable constraints.
+This separation allows small, open‑weight models to behave like much larger systems through iterative refinement, validation, and symbolic oversight — without cloud dependence, data exposure, or frontier‑scale compute.
 
-Bicameral‑AI maintains a transparent Markdown memory ledger that records every routing decision, validator verdict, and refinement cycle. The result is an AI system that is legible, auditable, and governable—built for domains where correctness and traceability are non‑negotiable.
+---
 
-This system forms the dependent infrastructure for my startup’s first commercial product and for future projects. It was conceived around the requirements those systems will demand: transparency, determinism, auditability, and the ability to operate under strict hardware constraints. Bicameral‑AI is engineered to run on a single‑GPU workstation with a large RAM warm‑pool, proving that high‑assurance AI does not require frontier‑scale compute.
+## **Why Bicameral‑AI Exists**
 
-My long‑term goal is to grow a zoo of highly‑specialised models and evolve the system toward v2.0 through structured self‑improvement—using the architecture itself to optimise future iterations.
-I am building this project to solve three primary problems:
-1.	_Data Sovereignty_: Ensuring 100% privacy by running entirely air-gapped with no external API dependencies.
-2.	_Economic Feasibility_: Demonstrating that frontier‑scale capability can be achieved on consumer hardware by trading latency for accuracy.
-3.	_Auditability, verifiability, and robustness, and robustness_: Proving that AI systems can be governed, tested, and validated like traditional software, and can reliably build large, complex software packages under constitutional constraints.
+Modern AI forces a trade‑off between capability, privacy, and trust. Bicameral‑AI rejects that compromise. It is built to solve three foundational problems:
 
-##The Philosophy: Accuracy Over Latency##
+### **1. Data Sovereignty**  
+100% local, air‑gapped execution with no external APIs. All inference, routing, validation, and memory remain on‑premise.
 
-In this system, I treat time as a resource to be traded for correctness. By utilizing a "Bicameral" architecture - splitting the system into a Generative GPU Chamber and a Logical CPU Chamber - I can force smaller models to behave like much larger ones through iterative refinement.
+### **2. Economic Feasibility**  
+Frontier‑level reliability on consumer hardware by **trading latency for correctness**. Time becomes a resource, not a constraint.
 
-##The Ralph-Prolog-TDD Triad##
+### **3. Auditability & Robustness**  
+A governed AI system that can be **tested, validated, and traced** like traditional software — capable of building large, complex codebases under constitutional constraints.
 
-The core of my methodology is a three-way interaction:
+---
 
-•	_The Constitution (Prolog)_: A symbolic logic engine that acts as the system's "Law." It determines model selection and validation requirements.
+## **The Philosophy: Accuracy Over Latency**
 
-•	_The Invariant (TDD)_: Every task begins with the generation of a Test-Driven Development (TDD) harness.
+Historically, correctness mattered more than speed — programs ran overnight, or for days, to ensure reliability. Bicameral‑AI returns to that mindset.
 
-•	_The Enforcer (Ralph)_: Named as a nod to the "Ralph Wiggum" primitive (a BASH loop that runs until a test passes). Ralph is the mechanism of naive persistence – it forces the system to refine its output until the TDD invariants are met.
-________________________________________
+The GPU chamber generates.  
+The CPU chamber governs.  
+The system iterates until the output is *correct*, not merely plausible.
 
-##Technical Stack##
+This architecture enables smaller models to outperform their size class through structured refinement, validator feedback, and symbolic routing.
 
-The system is engineered to maximize performance on constrained hardware by utilizing a Bicameral Architecture, separating generative tasks (GPU) from logical governance (CPU).
+---
 
-###The Model Zoo (Orchestrated via Prolog)###
+## **The Ralph‑Prolog‑TDD Triad**
 
-The system utilizes a specialized ensemble of models, each selected by the Prolog Router based on the task domain and required "stakes":
+Bicameral‑AI is governed by a three‑part constitutional mechanism:
 
-• _Primary Worker (Code/Reasoning)_: Qwen2.5-Coder-32B — The heavy-lifter for architectural design and complex implementation.
+### **• The Constitution (Prolog)**  
+A symbolic logic engine that determines domain, stakes, model selection, and required validation. It is the system’s law.
 
-• _The Critic (Validation)_: IBM Granite-3.0/4.0 — Specialized for line-by-line verification and ensuring adherence to the "Constitution."
+### **• The Invariant (TDD)**  
+Every task begins with a Test‑Driven Development harness. Tests encode the contract, invariants, and expected behaviour.
 
-• _General Reasoning_: GPT-OSS-8B/20B — Used for high-level planning and internal system reasoning.
+### **• The Enforcer (Ralph)**  
+A naive persistence loop — a BASH primitive that runs tests repeatedly. If they fail, the system refines the output until they pass.
 
-• _Performance/Ops_: Nemotron-3-8B — Optimized for system operations and performance-critical tasks.
+Together, these components transform generative models into a **governed software‑construction engine**.
 
-• _Creative/Narrative_: MythoMax-L2-13B — Deployed for creative content generation and brand-safe narrative tasks.
+---
 
-• _Efficiency Specialist_: Granite-3.0-8B-Instruct — Used for low-stakes, high-speed processing to preserve resources.
+## **Technical Stack**
 
-###Infrastructure & Governance###
+### **Model Zoo (Orchestrated via Prolog)**  
+Each model is selected based on domain, stakes, and required guarantees:
 
-• _Inference Engine_: llama.cpp — Leverages GGUF quantization to fit the Model Zoo within a 16GB VRAM envelope.
+- **Qwen2.5‑Coder‑32B** — Primary Worker for architecture and complex implementation  
+- **IBM Granite‑3.0/4.0** — Line‑by‑line Validator and constitutional enforcer  
+- **GPT‑OSS‑8B/20B** — General reasoning and planning  
+- **Nemotron‑3‑8B** — Performance‑oriented implementation and ops tasks  
+- **MythoMax‑L2‑13B** — Creative and narrative generation  
+- **Granite‑3.0‑8B‑Instruct** — Efficiency specialist for low‑stakes tasks  
 
-• _Governance Spine_: SWI-Prolog — A deterministic, symbolic "Constitution" for domain routing and policy enforcement.
+### **Infrastructure & Governance**
 
-• _Orchestration Layer_: Python 3.11 — The bridge between symbolic logic and neural inference.
+- **Inference Engine:** llama.cpp (GGUF quantization for 16GB VRAM envelopes)  
+- **Governance Spine:** SWI‑Prolog (deterministic routing and policy enforcement)  
+- **Orchestration Layer:** Python 3.11  
+- **Memory System:** Markdown Memory Ledger (transparent, durable, human‑readable audit trail)
 
-• _Memory System_: Markdown Memory Ledger — A durable, human-readable audit trail recording every Prolog decision, Ralph loop iteration, and validator verdict.
-________________________________________
- 
-##Hardware Constraints## 
+---
 
-I’m designing this software specifically to maximize the following hardware configuration. This project is intended to serve as a benchmark for what is possible on a high-memory, low-VRAM workstation:
+## **Hardware Profile**
 
-•	_OS_: Fedora 42 Workstation
+Bicameral‑AI is designed to run on a single‑GPU workstation with a large RAM warm‑pool:
 
-•	_CPU_: Intel Xeon W-2135 (LGA2066)
+- **OS:** Fedora 42  
+- **CPU:** Intel Xeon W‑2135  
+- **RAM:** 128GB ECC (warm‑pool for model swapping)  
+- **GPU (Compute):** Nvidia Tesla A2 (16GB VRAM)  
+- **GPU (Display):** Nvidia GT710  
+- **Storage:** Samsung 990 EVO Plus 1TB NVMe  
+- **Motherboard:** Supermicro X11SRA  
+- **Chassis/Power:** Antec P20CE / MSI MAG A750GL  
 
-•	_RAM_: 128GB DDR4-2133 ECC (8x 16GB) – Enables a "Warm Pool" for model swapping.
+This configuration demonstrates that **high‑assurance AI does not require frontier‑scale compute**.
 
-•	_GPU 1 (Compute)_: Nvidia Tesla A2 (16GB VRAM)
+---
 
-•	_GPU 2 (Display)_: Nvidia GT710 (2GB)
+## **Project Status**
 
-•	_Storage_: Samsung 990 EVO PLUS 1TB NVMe (PCIe 4.0/5.0)
+**Current Phase:** Documentation & Architectural Specification  
+The repository currently includes:
 
-•	_Motherboard_: Supermicro X11SRA
+- Formal specifications  
+- Prolog routing schemas  
+- Architectural design documents  
+- Memory and governance models  
 
-•	_Chassis/Power_: Antec P20CE / MSI MAG A750GL (750W)
-________________________________________
+Next milestone: **Python‑Prolog bridge implementation**.
 
-##Project Status##
+### **Repository Structure**
 
-_Current Phase_: Documentation & Architectural Specification.
-This repository currently contains the formal specifications, Prolog routing schemas, and architectural designs for the Bicameral-AI system. I am currently moving toward the initial implementation of the Python-Prolog bridge.
-
-_Planned Structure_
 ```
 ├── docs/               # Formal specifications and PRDs
 ├── router/             # Prolog Constitution (The Law)
 ├── orchestrator/       # Python bridge and llama.cpp management
-├── models/             # Model-specific prompt wrappers (Qwen/Granite)
+├── models/             # Model-specific prompt wrappers
 └── ledger/             # Markdown-based audit trails
 ```
-________________________________________
- 
-##The Ralph Loop (Conceptual)##
 
-The system doesn't just "guess" an answer. It iterates:
-1.	Prolog decides the stakes and selects the model.
-2.	Qwen generates a TDD test and an initial solution.
-3.	Ralph runs the test.
-4.	If it fails, Granite analyses the error, and the loop repeats until the test passes.
-________________________________________
+---
 
-_License_: This project is licensed under the MIT License – see the Licence file for details. 
+## **The Ralph Loop (Conceptual)**
 
-_Author_: William Murray 
+1. Prolog determines stakes and selects the model  
+2. Qwen generates a TDD test and initial solution  
+3. Ralph runs the test  
+4. If it fails, Granite analyses the error  
+5. The loop repeats until the test passes  
 
+This transforms generative AI into a **deterministic, governed build system**.
+
+---
+
+## **License**
+
+MIT License — see `LICENSE` for details.
+
+**Author:** William Murray
+
+---
