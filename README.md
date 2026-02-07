@@ -1,9 +1,18 @@
 #Bicameral-AI: Sovereign Infrastructure & The Ralph Protocol#
 
-_Bicameral-AI_ is intended to be a high-accuracy, locally-hosted AI orchestration engine designed to deliver performance approaching frontier-model levels on a budget-conscious, consumer-grade workstation.
-I am building this project to solve two primary problems:
+I’m building _Bicameral‑AI_, a sovereign, locally‑hosted AI orchestration system designed to deliver high‑assurance reasoning on constrained hardware. It uses a bicameral architecture: a GPU generative chamber for creative and synthetic work, paired with a CPU logical chamber responsible for routing, validation, and constitutional governance.
+
+At the core is a Prolog‑driven “constitution” that determines domain, stakes, model selection, and required validation. Every task begins with a test harness, and the system iterates until those tests pass. This trades latency for correctness, enabling smaller open‑weight models to achieve reliability that meaningfully exceeds what we see in frontier‑scale systems - without cloud dependence or data exposure. Historically, we ran programs overnight, or for days, when correctness mattered. Bicameral‑AI returns to that mindset: time is a resource, not a constraint. Where frontier models generate code, this system is designed to build full, complex software packages under governance, validation, and traceable constraints.
+
+Bicameral‑AI maintains a transparent Markdown memory ledger that records every routing decision, validator verdict, and refinement cycle. The result is an AI system that is legible, auditable, and governable—built for domains where correctness and traceability are non‑negotiable.
+
+This system forms the dependent infrastructure for my startup’s first commercial product and for future projects. It was conceived around the requirements those systems will demand: transparency, determinism, auditability, and the ability to operate under strict hardware constraints. Bicameral‑AI is engineered to run on a single‑GPU workstation with a large RAM warm‑pool, proving that high‑assurance AI does not require frontier‑scale compute.
+
+My long‑term goal is to grow a zoo of highly‑specialised models and evolve the system toward v2.0 through structured self‑improvement—using the architecture itself to optimise future iterations.
+I am building this project to solve three primary problems:
 1.	_Data Sovereignty_: Ensuring 100% privacy by running entirely air-gapped with no external API dependencies.
-2.	_Economic Feasibility_: Proving that "diabolical" frontier-system costs can be bypassed by trading latency for accuracy on local hardware.
+2.	_Economic Feasibility_: Demonstrating that frontier‑scale capability can be achieved on consumer hardware by trading latency for accuracy.
+3.	_Auditability, verifiability, and robustness, and robustness_: Proving that AI systems can be governed, tested, and validated like traditional software, and can reliably build large, complex software packages under constitutional constraints.
 
 ##The Philosophy: Accuracy Over Latency##
 
@@ -46,7 +55,7 @@ The system utilizes a specialized ensemble of models, each selected by the Prolo
 
 • _Governance Spine_: SWI-Prolog — A deterministic, symbolic "Constitution" for domain routing and policy enforcement.
 
-• _Orchestration Layer: Python 3.11 — The bridge between symbolic logic and neural inference.
+• _Orchestration Layer_: Python 3.11 — The bridge between symbolic logic and neural inference.
 
 • _Memory System_: Markdown Memory Ledger — A durable, human-readable audit trail recording every Prolog decision, Ralph loop iteration, and validator verdict.
 ________________________________________
