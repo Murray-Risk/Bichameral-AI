@@ -62,7 +62,8 @@ Each model is selected based on domain, stakes, and required guarantees:
 - **GPT‑OSS‑20B** — General reasoning and planning  
 - **Nemotron‑3‑8B** — Performance‑oriented implementation and ops tasks  
 - **MythoMax‑L2‑13B** — Creative and narrative generation  
-- **Granite‑3.0‑8B‑Instruct** — Efficiency specialist for low‑stakes tasks  
+- **Granite‑3.0‑8B‑Instruct** — Efficiency specialist for low‑stakes tasks
+- **PaddleOCR-VL-0.9B** - High‑accuracy, fully local OCR engine for document ingestion, provenance extraction, and grounding within the multimodal pipeline.
 
 ### **Infrastructure & Governance**
 
