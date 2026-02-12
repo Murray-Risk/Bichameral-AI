@@ -105,13 +105,13 @@ The repository currently includes:
 * **Add tool inference from attachments** — Integration with the Orchestrator to infer tools from file types, not only keywords.
 
 ### **Repository Structure**
-
+```
 ├── docs/ # Formal specifications and PRDs
 ├── router/ # Prolog Constitution (The Law)
 ├── orchestrator/ # Python bridge and llama.cpp management
 ├── models/ # Model-specific prompt wrappers
 └── ledger/ # Markdown-based audit trails
-
+```
 
 ---
 
