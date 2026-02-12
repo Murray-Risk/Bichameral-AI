@@ -23,6 +23,22 @@ A governed AI system that can be **tested, validated, and traced** like traditio
 
 ---
 
+## **What Bicameral‑AI Is Not**
+
+Bicameral‑AI is intentionally narrow in scope. It is not:
+
+- an agent framework. There are no autonomous loops, no self‑initiated actions, and no hidden state. All cognition is governed, explicit, and test‑driven.
+
+- a chatbot wrapper. Bicameral‑AI is a constitutional reasoning system, not a conversational interface.
+
+- a cloud‑dependent orchestration layer. All inference, routing, validation, and memory occur locally. No external APIs, telemetry, or remote dependencies.
+
+- a speed‑optimised system. Latency is traded for correctness. Bicameral‑AI prioritises reliability, determinism, and auditability over throughput.
+
+- a frontier‑model playground. The architecture is designed for small, open‑weight models running on constrained hardware — not for chasing state‑of‑the‑art benchmarks.
+
+---
+
 ## **The Philosophy: Accuracy Over Latency**
 
 Historically, correctness mattered more than speed — programs ran overnight, or for days, to ensure reliability. Bicameral‑AI returns to that mindset.
@@ -32,6 +48,42 @@ The CPU chamber governs.
 The system iterates until the output is *correct*, not merely plausible.
 
 This architecture enables smaller models to outperform their size class through structured refinement, validator feedback, and symbolic routing.
+
+---
+
+## **Design Principles**
+
+Bicameral‑AI is built on a set of architectural principles that guide every component of the system:
+
+### **1. Sovereignty First**
+All computation, memory, and governance remain local. No cloud dependencies, no external inference, no data exposure.
+
+### **2. Accuracy Over Latency**
+Time is treated as a resource. The system iterates until outputs satisfy constitutional tests, even if this requires multiple refinement cycles.
+
+### **3. Deterministic Governance**
+Routing, validation, and policy enforcement are handled by symbolic logic (Prolog), ensuring predictable, auditable behaviour.
+
+### **4. Transparent Memory**
+All state is stored as human‑readable Markdown. No vector stores, no embeddings, no opaque drift.
+
+### **5. Small Models, Large Systems**
+Capability emerges from orchestration, not parameter count. The architecture enables small models to behave like larger ones through structured refinement.
+
+### **6. Test‑Driven Cognition**
+Every task begins with a test harness. Tests define the contract, invariants, and acceptable behaviour before generation begins.
+
+### **7. Separation of Powers**
+The GPU generates.
+The CPU governs.
+The constitution constrains.
+
+This bicameral structure prevents collapse into uncontrolled generative behaviour.
+
+### **8. Auditability as a Feature**
+Every decision, refinement, and failure is logged. The system is designed to be inspected, traced, and verified.
+
+These principles make the architecture legible, durable, and resistant to drift — the opposite of the “fast‑and‑loose” agent ecosystems dominating the current landscape.
 
 ---
 
@@ -111,7 +163,7 @@ The repository currently includes:
   - Model Serving Orchestration
   - Domain and Taxonomy
   - Routing Policies
-  - Router Specificiations
+  - Router Specifications
 * Phase 2 - Implementation Documents
   - Multimodal Pipeline Design
 * CHANGELOG
