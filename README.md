@@ -57,9 +57,9 @@ Together, these components transform generative models into a **governed softwar
 ### **Model Zoo (Orchestrated via Prolog)**
 * **Qwen3-coder-next:q4_K_M** — Primary Worker for architecture and complex implementation
 * **IBM Granite‑3.0/4.0** — Line‑by‑line Validator and constitutional enforcer
-* **GPT‑OSS‑8B/20B** — General reasoning and planning
+* **GPT‑OSS‑20B** — General reasoning and planning
 * **granite-20b-code-instruct-8k-GGUF** — Performance‑oriented implementation and ops tasks
-* **MythoMax‑L2‑13B** — Creative and narrative generation. It is my intention to fine tune MythoMax to reflect my tone and style, the Australian style guide, Australian spelling and grammar, and various academic referencing standards.
+* **MythoMax‑L2‑13B** — Creative and narrative generation. It is my intention to fine tune MythoMax to reflect my tone and style, the Australian Government Style Manual, Australian spelling and grammar, and various academic referencing standards i.e. Harvard, Chicago, AGLC, APA, etc.
 * **Granite‑3.0‑8B‑Instruct** — Efficiency specialist for low‑stakes tasks
 
 ### **Infrastructure & Governance**
