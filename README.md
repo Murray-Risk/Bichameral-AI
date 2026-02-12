@@ -91,11 +91,36 @@ This configuration demonstrates that **high‑assurance AI does not require fron
 
 **Current Phase:** Router Validation & Testing
 The repository currently includes:
-* Formal specifications
-* Prolog routing schemas
-* Phase 0 - Foundation and Planning documents
-* Phase 1 - Design and Specification documents
+* Phase 0 - Foundation and Planning documents:
+  - Technical Analysis Report
+  - Comprehensive Architecture Report
+  - Product Requirements Document
+  - Initial Risk Register
+  - Risk Management Plan
+  - Project Roadmap
+* Phase 1 - Design and Specification documents:
+  - System Architecture Document
+  - Data Architecture and Memory Design Document
+  - API Specification Document
+  - Security and Governance Design
+  - Testing Strategy and Test Plan
+  - Domain Logic Specification
+  - Security Risk Assessment
+  - Technical Risk Assessment
+  - Routing Logic Specification
+  - Model Serving Orchestration
+  - Domain and Taxonomy
+  - Routing Policies
+  - Router Specificiations
+* Phase 2 - Implementation Documents
+  - Multimodal Pipeline Design
 * CHANGELOG
+* Code:
+  - router_service.py   # Python wrapper that loads and executes the Prolog router
+  - routing_rules.pl    # Prolog routing logic and domain rules
+  - test_router.py      # Unit tests for the routing layer
+
+---
 
 **Status (2026‑02‑10):** Completed. Debugged and tested the Router using Codex 5.2. All tests pass and outputs are correct.
 
@@ -103,6 +128,8 @@ The repository currently includes:
 * **Add a reasoning string to the output** — The Router’s decisions are correct but not yet explainable. Explicit reasoning is required for the audit trail.
 * **Add a confidence score** — A simple heuristic (e.g., keyword‑match ratio) to help trigger fallback paths.
 * **Add tool inference from attachments** — Integration with the Orchestrator to infer tools from file types, not only keywords.
+
+---
 
 ### **Repository Structure**
 ```
