@@ -75,12 +75,12 @@ These principles make the architecture legible, durable, and resistant to drift 
 Bicameral‑AI is governed by a formal, lifecycle‑wide risk management framework aligned with ISO 31000:2018 and the project’s Risk Management Roadmap v2.0.0. The system treats risk as a constitutional concern: explicit, auditable, and continuously governed.
 Risk governance spans all phases of the project:
 
-**- Foundation (Phase 0)** — Establishes the risk approach and initial register, defining appetite, categories, and assessment methodology.
-**- Design (Phase 1)** — Technical and security risk assessments identify architectural, integration, and threat‑model risks before implementation begins.
-**- Implementation (Phase 2)** — A continuously updated Risk Monitoring Log tracks mitigation progress, new risks, and triggered events.
-**- Operations (Phase 3)** — An Operational Risk Register governs availability, capacity, incident response, and business continuity risks.
-**- Post‑Implementation (Phase 4)** — A formal review evaluates which risks materialised and strengthens future governance.
-**- Continuous Oversight (Phase 5)** — Quarterly risk reports, incident analyses, vendor assessments, and compliance reviews maintain long‑term visibility.
+- **Foundation (Phase 0)** — Establishes the risk approach and initial register, defining appetite, categories, and assessment methodology.
+- **Design (Phase 1)** — Technical and security risk assessments identify architectural, integration, and threat‑model risks before implementation begins.
+- **Implementation (Phase 2)** — A continuously updated Risk Monitoring Log tracks mitigation progress, new risks, and triggered events.
+- **Operations (Phase 3)** — An Operational Risk Register governs availability, capacity, incident response, and business continuity risks.
+- **Post‑Implementation (Phase 4)** — A formal review evaluates which risks materialised and strengthens future governance.
+- **Continuous Oversight (Phase 5)** — Quarterly risk reports, incident analyses, vendor assessments, and compliance reviews maintain long‑term visibility.
 
 Risk controls are embedded directly into the architecture: deterministic routing, constitutional constraints, test‑driven cognition, transparent memory, and iterative refinement all function as systemic safeguards. Every risk has an owner, a mitigation strategy, and a traceable audit trail in the Markdown Memory Ledger, ensuring that sovereignty extends not only to computation but to governance itself.
 
