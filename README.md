@@ -54,32 +54,23 @@ This architecture enables smaller models to outperform their size class through 
 ## **Design Principles**
 
 Bicameral‑AI is built on a set of architectural principles that guide every component of the system:
-
 ### **1. Sovereignty First**
 All computation, memory, and governance remain local. No cloud dependencies, no external inference, no data exposure.
-
 ### **2. Accuracy Over Latency**
 Time is treated as a resource. The system iterates until outputs satisfy constitutional tests, even if this requires multiple refinement cycles.
-
 ### **3. Deterministic Governance**
 Routing, validation, and policy enforcement are handled by symbolic logic (Prolog), ensuring predictable, auditable behaviour.
-
 ### **4. Transparent Memory**
 All state is stored as human‑readable Markdown. No vector stores, no embeddings, no opaque drift.
-
 ### **5. Small Models, Large Systems**
 Capability emerges from orchestration, not parameter count. The architecture enables small models to behave like larger ones through structured refinement.
-
 ### **6. Test‑Driven Cognition**
 Every task begins with a test harness. Tests define the contract, invariants, and acceptable behaviour before generation begins.
-
 ### **7. Separation of Powers**
 The GPU generates.
 The CPU governs.
 The constitution constrains.
-
 This bicameral structure prevents collapse into uncontrolled generative behaviour.
-
 ### **8. Auditability as a Feature**
 Every decision, refinement, and failure is logged. The system is designed to be inspected, traced, and verified.
 
@@ -108,8 +99,9 @@ Together, these components transform generative models into a **governed softwar
 
 ### **Model Zoo (Orchestrated via Prolog)**
 * **Qwen3-coder-next:q4_K_M** — Primary Worker for architecture and complex implementation
-* **IBM Granite‑3.0/4.0** — Line‑by‑line Validator and constitutional enforcer
+* **IBM Granite‑4.0** — Line‑by‑line Validator and constitutional enforcer. It is my intention to fine tune this model.
 * **GPT‑OSS‑20B** — General reasoning and planning
+* **Granite‑4.0‑H‑Small** — Fine‑tuned TDD specialist for structured module development, automated test drafting, and governed Red → Green → Refactor workflows
 * **granite-20b-code-instruct-8k-GGUF** — Performance‑oriented implementation and ops tasks
 * **MythoMax‑L2‑13B** — Creative and narrative generation. It is my intention to fine tune MythoMax to reflect my tone and style, the Australian Government Style Manual, Australian spelling and grammar, and various academic referencing standards i.e. Harvard, Chicago, AGLC, APA, etc.
 * **Granite‑3.0‑8B‑Instruct** — Efficiency specialist for low‑stakes tasks
