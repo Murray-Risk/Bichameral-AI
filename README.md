@@ -142,7 +142,7 @@ This configuration demonstrates that **high‑assurance AI does not require fron
 
 The repository currently includes:
 * Phase 0 - Foundation and Planning documents:
-  - Technical Analysis Report
+  - Technical Analysis Report v.1.1.0
   - Comprehensive Architecture Report
   - Product Requirements Document
   - Initial Risk Register
